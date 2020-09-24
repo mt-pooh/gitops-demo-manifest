@@ -7,8 +7,6 @@ replicaCount: 1
 image:
   repository: musyu/gitops-demo-app
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "master-ae3db5ef"
 
 imagePullSecrets: []
 nameOverride: ""
